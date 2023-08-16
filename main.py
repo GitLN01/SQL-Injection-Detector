@@ -5,7 +5,7 @@ import tkinter
 import customtkinter
 from PIL import Image, ImageTk
 
-# Primer sajta koji je ranjiv na SQL Injection: http://testphp.vulnweb.com/artists.php?artist=1
+# Example of vulnerable website: http://testphp.vulnweb.com/artists.php?artist=1
 
 root = customtkinter.CTk()
 root.resizable(False, False)
